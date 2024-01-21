@@ -1,0 +1,74 @@
+@media only screen and (max-width:800px) {
+    span{
+        display: block;
+
+    }
+    ul li{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
+
+    .nav-bar img{
+        margin-top: 0px;
+        height: 40px;
+    }
+ .card{
+    width: 100%;
+    display: none;
+ }
+ .ing{
+    display: none;
+}
+
+
+
+.project-card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: justify;
+    align-items: center;
+    height: auto;
+}
+ 
+/* 
+skills */
+.skills-h1{
+    margin-bottom: 30px;
+}
+.container{
+    gap: 20px;
+}
+
+.cart{
+    width: 150px;
+    height: 90px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.skills-img{
+    width: 50px;
+   
+}
+
+/* contacts */
+
+.box{
+    width: 70%;
+}
+
+}
+
+
+@media only screen and (max-width:1024px){
+    .box{
+       width:60%;
+    }
+}

@@ -1,0 +1,330 @@
+*{
+    padding: 0;
+    margin: 0; 
+    font-family: sans-serif;
+}
+ body{
+  position: relative;
+  background-color: rgb(10 24 46);
+}
+ 
+ .nav-bar{
+
+    background:   rgb(10 30 47);
+    padding: 12px;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    font-family: sans-serif;
+ }
+.nav-bar img{
+
+   border-radius: 10px;
+    height: 50px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+ .menu-right
+ {
+    text-align: right;
+ }
+ ul li{
+
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+    color: #fff;
+
+ }
+ 
+ span{
+    margin: 0 20px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+ }
+
+ li>a{
+
+   color: #fff;
+   text-decoration: none;
+ }
+ li>a:hover{
+  transition: .8sec;
+   color: yellow;
+   cursor: pointer;
+ }
+ 
+ .home-img{
+  margin-top: 50px;
+  display: flex;
+  width: 70%;
+  margin: auto;
+  padding-top: 50px;
+  justify-content: space-between;
+ }
+.home-section{
+  background-color: rgb(10 24 46);
+ padding-top: 100px;
+}
+
+
+
+.card1{
+ 
+   border-radius: 50%;
+}
+ .card{
+ border-radius: 50%;
+   height: 350px;
+   width: 350px;
+  border: 3px solid rgb(227, 238, 17);
+ 
+ }
+
+ .img-fluid{
+  border-radius: 50%;
+   height: 350px;
+   object-fit: cover;
+ 
+ }
+ 
+ .ing{
+  border: 10px solid #1f1212;
+
+ }
+
+ .btn-a{
+   font-weight: 500;
+   color: #fff;
+   text-decoration: none;
+ }
+ .btn-a:hover{
+  color: #fffffc;
+ }
+ 
+ .names{
+  text-align:start;
+ }
+
+ .names h6{
+  color: #3d9239;
+ 
+ }
+
+
+ .names h1{
+  color: #ccd6f6;
+ font-size: 40px;
+ }
+
+ .names h2{
+ color: #8892b0; 
+  
+ }
+
+  .stack::after {
+    content: ' MERN stack';
+   color: #15cd0b;
+  }
+
+
+
+ /* About section */
+.info{
+
+  background-color: rgb(10 24 46) ;
+  padding-top: 100px;
+  height: auto;
+}
+
+.about-heading{
+  color: #b2c5ff;
+  text-align: center;
+  padding: 20px;
+  font-weight: 800;
+  /* font-size: 60px; */
+}
+
+.about-heading+h3{
+  width: 45%;
+  text-align: center;
+   margin: auto;
+  color:   rgb(209 213 219);
+  padding-top: 20px;
+}
+
+.about-p{
+  width: 70%;
+  text-align: justify;
+  margin: auto;
+  color:   rgb(209 213 219);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 1.8;
+  letter-spacing: 2px;
+}
+
+/* skills section */
+
+.skills-h1{
+  color: #b2c5ff;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-weight: 800;
+}
+.containers{
+  margin: auto;
+  width: 85%;
+  padding-left: 6.1%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+
+.cart{
+  width: 220px;
+  height: 150px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: .3s;
+
+ 
+}
+
+.skills-img{
+  margin-top: 10px;
+  padding-top: 5px;
+  width: 70px;
+  
+}
+.cart:hover{
+   transform: scale(1.1);
+}
+.skills-p{
+  margin-top: 20px;
+ 
+  color: white;
+}
+
+
+/* project section */
+ .projects>h1{
+  text-align: center;
+  color:#b2c5ff;
+  padding: 20px;
+  font-weight: 800;
+
+ }
+.project-card{
+
+  width: 80%;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+
+.card-img{
+  width: 270px;
+  border: 2px solid white;
+  border-radius: 10px;
+  height: auto;
+  margin-top: 10px;
+ 
+  
+}
+
+
+
+
+.project-text{
+  width: 80%;
+  margin: auto;
+}
+
+.project-text{
+ 
+  color: #85e180;
+  padding-bottom: 20px;
+}
+
+.buttons-pro{
+  display: flex;
+  width: 40%;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+.git-logo{
+  width: 60px;
+  mix-blend-mode:lighten;
+  border-radius: 50%;
+  transition: .3sec;
+}
+.git-logo:hover{
+  transform: scale(1.1);
+
+ 
+}
+
+
+
+
+/* contacts */
+ .box{
+  width: 30%;
+  height: auto;
+  margin: auto;
+  border: 2px solid rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+ border-radius: 10px;
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.lable{
+  color: #d8ddee;
+  font-size: 20px;
+  font-weight: 700;
+  padding:8px 0px;
+}
+
+.input{
+  height: 40px ;
+  font-size: 16px;
+  border-radius:5px ;
+}
+
+.textarea{
+  width: 100%; 
+  height: 50px;  
+  padding: 10px;  
+  font-family: Arial, sans-serif;  
+  font-size: 14px; 
+  border: 1px solid #ccc;  
+  border-radius: 5px;  
+  margin-bottom: 20px;
+}
+
+ .contact-heading{
+  text-align: center;
+  font-weight: 800;
+  padding-top: 50px;
+  color: #b2c5ff;
+ }
