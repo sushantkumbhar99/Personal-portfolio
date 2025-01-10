@@ -1,4 +1,4 @@
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:832px) {
     span{
         display: block;
 
@@ -72,3 +72,77 @@ skills */
        width:60%;
     }
 }
+
+
+@media only screen and (max-width:600px){
+    .cart{
+        width: 100px;
+        height: 150px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        display:  grid;
+        grid-template-columns: repeat(2, 1fr);
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+
+       
+       
+    }
+    .containers{
+        width: 100%;
+        padding-left: 0px;
+        margin:30px;
+        
+    }
+    
+    .card-text
+    {
+        padding-top: 20px;
+    }
+
+
+
+
+}
+
+/*  
+@media only screen and (max-width:390px){
+    .container{
+        width: 100%;
+       
+   
+    
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .cart{
+        width: 200px;
+        height: 150px;
+       margin-right: 50px;
+    }
+
+
+} */
+
+/* 
+@media only screen and (max-width:559px){
+    .container{
+        width: 100%;
+       
+   
+    
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .cart{
+        width: 220px;
+        height: 150px;
+       flex-wrap: wrap;
+     
+       gap: 0px;
+    }
+
+    
+} */
